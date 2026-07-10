@@ -59,6 +59,14 @@ Full formulas and assumptions: [`docs/methodology.md`](docs/methodology.md)
 
 ---
 
+## 🗄️ SQL Pipeline
+
+The full transformation logic — staging, reorder point, safety stock, EOQ, ABC classification, supplier performance, and expiry risk — is written in DuckDB SQL:
+
+📄 [`sql/duckdb_analysis.sql`](sql/duckdb_analysis.sql)
+
+---
+
 ## 📈 Dashboard — 9 Pages
 
 ### 1. Executive Overview
